@@ -1,15 +1,27 @@
-.octodex{}
+.octodex{
+
+}
 
 .octocat{
-  border: 10px solid grey;
+  border: 5px solid grey;
   border-radius: 5px;
   margin: 20px;
-  width: 20%;
+  width: 25%;
   display: inline-block;
 }
+
+.octocat img{
+  height: 100px;
+  width: 100px;
+}
+
+.image-footer img{
+  height: 20px;
+  width: 20px;
+}
+
 .image-footer{
-  border: 5px solid black;
-  background-color: yellow;
+  margin-top: 20px;
 }
 
 .image-caption{
