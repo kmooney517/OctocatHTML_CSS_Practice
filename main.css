@@ -19,7 +19,7 @@
   border-color: #cccccc transparent transparent transparent;
   position: absolute;
   left: 299px;
-  bottom: 32px;
+  bottom: 28px;
 }
 
 .octocat img{
@@ -46,6 +46,7 @@
 }
 .image-footer ul{
   list-style-type: none;
+  margin-top: -4px;
 }
 
 .image-caption{
@@ -66,7 +67,7 @@
   color: #cccccc;
   font-weight: bold;
   float: left;
-  font-size: 15px;
+  font-size: 11px;
 }
 
 .authors {
@@ -74,4 +75,6 @@
   padding-left: 5px;
 }
 
-
+.image-number:before {
+  content:"#";
+}
