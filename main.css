@@ -11,15 +11,19 @@
   border: 1px solid #cccccc;
   border-radius: 3px;
   width: 300px;
+  height: 300px;
 }
 
 .image-footer{
   border: none;
+  padding: 10px;
 }
 
 .image-footer img{
   height: 20px;
   width: 20px;
+  margin: 0;
+  border: none;
 }
 .image-footer ul{
   list-style-type: none;
@@ -28,6 +32,7 @@
 .image-caption{
   float: right;
   font-size: 15px;
+  margin: 0;
 }
 
 .image-number{
@@ -39,6 +44,7 @@
 
 .authors {
   float: right;
+  padding-left: 5px;
 }
 
 
